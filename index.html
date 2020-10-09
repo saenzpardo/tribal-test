@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="w<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9Kidth=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" >
+    <style>
+
+        .fill {
+            height: auto;
+        
+        }
+
+        body {
+            text-align: center;
+            background-color: #2c2c2e;
+            
+        }
+
+        h1 {
+            font-size: 15vw;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            
+        }
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        .gradient{                        
+            /* font-size: 72px; */            
+            background: -webkit-linear-gradient(#c7af7a,#ac8a3e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+                
+        .shadow {
+            text-shadow: 1px 3px 8px #bda265;
+            color: gold;
+        }
+
+        .shadowSampleOne {        
+            /* text-shadow: 1px 5px 15px #4e3906; */
+            text-shadow: 0 8px 16px 0 rgba(138, 124, 4, 0.938), 
+                        0 6px 20px 0 rgba(228, 231, 17, 0.19);
+        }
+
+        .shadowSubHeader {
+            text-shadow: 1px 2px 30px rgba(138,124,4,0.938),
+                         2px 12px 9px  rgba(228,231,17,0.19);                         
+        }
+
+        .cssreflections {
+            -webkit-box-reflect: below -.45em -webkit-gradient(linear, left top, left bottom,  from(transparent), 
+            color-stop(0%, transparent), to(rgba(255, 255, 255, 0.75)));
+        }
+
+        .col-8 {
+            flex: 0 0 75%;
+            max-width: 75%;
+            clear: both;
+            margin-top: 30px;
+        
+        }
+
+        .button {
+            position: relative;
+            border-radius: 15px;
+            border-width: 3px;;
+            padding: 10px;
+            opacity: 0.8;
+            border-color: #ac8a3e;
+            background-color: #2c2c2e;
+            color: gold;
+            font-size: 4vw;
+            box-shadow: 0 8px 16px 0 rgba(138, 124, 4, 0.938), 
+                        0 6px 20px 0 rgba(228, 231, 17, 0.19);
+
+        }
+        
+    </style>
+</head>
+<body class="fill">
+    
+        <div class="container ">
+            <h1 class="text-uppercase gradient shadowSampleOne">
+                Tribal<br /> Network
+            </h1>
+            <h3 class="gradient shadowSubHeader">The Network For The Modern Entertainer</h3>
+        </div>
+    
+<section class="">
+    <div class="container col-8">
+        <button class="button col-8">Live</button>
+        <button class="button col-8">Login</button>
+        <button class="button col-8">Submit</button>
+    </div>
+
+</section>
+
+</body>
+</html>
